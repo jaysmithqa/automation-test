@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="wao-studio-on-google-search;see-wao-studio-on-result-page-of-google-search." tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/media/ngocbich/DATA/New folder/Testing/automation-test/features/revollet_login.feature">
+            </property>
+        </properties>
+        <testcase name="When I visited &quot;https://google.com&quot;" classname="wao-studio-on-google-search;see-wao-studio-on-result-page-of-google-search." time="0.000562467">
+        </testcase>
+        <testcase name="Then I input &quot;wao studio&quot;" classname="wao-studio-on-google-search;see-wao-studio-on-result-page-of-google-search." time="0.002145003">
+        </testcase>
+        <testcase name="Then I click button &quot;Tìm với Google&quot;" classname="wao-studio-on-google-search;see-wao-studio-on-result-page-of-google-search." time="2.591545346">
+        </testcase>
+        <testcase name="Then I will see &quot;Wao Studio&quot;" classname="wao-studio-on-google-search;see-wao-studio-on-result-page-of-google-search." time="1.382076236">
+        </testcase>
+    </testsuite>
+</testsuites>

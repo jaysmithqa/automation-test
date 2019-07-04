@@ -1,0 +1,87 @@
+[
+  {
+    "description": "  As an internet user\n  I want to login find wao studio as result in google.com",
+    "elements": [
+      {
+        "id": "wao-studio-on-google-search;see-wao-studio-on-result-page-of-google-search.",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "See wao studio on result page of Google search.",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I visited \"https://google.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 562467
+            },
+            "line": 6,
+            "match": {
+              "location": "folder/Testing/automation-test/features/step_definitions/revollet_login_steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I input \"wao studio\"",
+            "result": {
+              "status": "passed",
+              "duration": 2145003
+            },
+            "line": 7,
+            "match": {
+              "location": "folder/Testing/automation-test/features/step_definitions/revollet_login_steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click button \"Tìm với Google\"",
+            "result": {
+              "status": "passed",
+              "duration": 2591545346
+            },
+            "line": 8,
+            "match": {
+              "location": "folder/Testing/automation-test/features/step_definitions/revollet_login_steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I will see \"Wao Studio\"",
+            "result": {
+              "status": "passed",
+              "duration": 1382076236
+            },
+            "line": 9,
+            "match": {
+              "location": "folder/Testing/automation-test/features/step_definitions/revollet_login_steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 6936253260
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder/Testing/automation-test/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "wao-studio-on-google-search",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Wao studio on Google search",
+    "tags": [],
+    "uri": "/media/ngocbich/DATA/New folder/Testing/automation-test/features/revollet_login.feature"
+  }
+]
